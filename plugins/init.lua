@@ -31,6 +31,10 @@ return {
   ["wellle/targets.vim"] = {
     event = "VimEnter",
   },
+  ["Yggdroot/LeaderF"] = {
+    cmd = "Leaderf",
+    run = ":LeaderfInstallCExtension"
+  },
 
   ["nanotee/sqls.nvim"] = { module = "sqls" },
 
